@@ -39,3 +39,4 @@ function type_check_v2(arg1,arg2){
    if(type_check_v1(arg1,arg2["type"])&& arg2["value"]===arg1 ) return true;
    return false;
 }
+console.log(type_check_v2("foo",{type:"string",value:"foo"}))
