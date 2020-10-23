@@ -26,3 +26,12 @@ function type_check_v1(arg1,arg2){
    
    
 }
+
+
+
+
+function type_check_v2(arg1,arg2){
+
+   if(type_check_v2(arg1,arg2[type])&& arg2===arg1 ) return true;
+   return false;
+}
